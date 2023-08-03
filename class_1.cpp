@@ -14,10 +14,10 @@ int main(){
     std::cout<<std::endl;
    
     std::cout<<"marks of student: ";
-     std::cin>>marks;
+    std::cin>>marks;
     std::cout<<std::endl;
-     std::cout<<"name of student: "<<name<<std::endl;
-     std::cout<<"roll no of student: "<<roll<<std::endl;
-     std::cout<<"marks of student: "<<marks<<std::endl;
+    std::cout<<"name of student: "<<name<<std::endl;
+    std::cout<<"roll no of student: "<<roll<<std::endl;
+    std::cout<<"marks of student: "<<marks<<std::endl;
 
 }
