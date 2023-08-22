@@ -19,7 +19,7 @@ void course::info_course(){
 
 int main(){
     course obj;
-    obj.info_course;
+    obj.info_course();
     return 0;
 
 }

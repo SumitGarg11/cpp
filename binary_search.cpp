@@ -1,4 +1,5 @@
 #include <iostream>
+
 int binary_search_1(int arr[],int size,int target){
     int s = 0;
     int e = size - 1;
@@ -10,6 +11,7 @@ int binary_search_1(int arr[],int size,int target){
         if(target > arr[mid]){
             s = mid + 1;
         }
+        
         else{
             e = mid - 1;
     
