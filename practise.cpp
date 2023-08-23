@@ -126,17 +126,26 @@
 int main(){
     int n;
     std::cin>>n;
+    int arr[5];
     for(int i = 0; i<n; i++){
-        int m;
-        std::cin>>m;
-        int arr[m];
+        int m = 5;
+        
+        
         for(int i = 0; i<m; i++){
             std::cin>>arr[i];
         }
-        for(int i = 0; i<m; i++){
-            std::cout<<arr[i]<<" "<<std::endl;
-        }
+        
     }
+    for(int i = 0; i<n; i++){
+        int m = 5;
+        
+        
+        for(int i = 0; i<m; i++){
+            std::cout<<arr[i]<<" ";
+        }
+        std::cout<<std::endl;
+    }
+    
 }
 
    
