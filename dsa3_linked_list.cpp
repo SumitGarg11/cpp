@@ -22,7 +22,8 @@ int main(){
         }
         std::cout<<"do you want to continue (0,1)?";
         std::cin >>choice;
-    }
+    }    
+
         temp = head;
         while(temp!=0){
             std::cout<<temp->data<<" ";
@@ -30,4 +31,6 @@ int main(){
 
         }
         return 0;
+
+        
 }
