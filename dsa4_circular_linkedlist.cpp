@@ -31,6 +31,7 @@ int main(){
             temp = temp->next;
 
         }
+        std::cout<<temp->data;
         return 0;
 
         
