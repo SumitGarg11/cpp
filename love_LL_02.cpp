@@ -26,6 +26,7 @@ void print(Node* &head){
 }
 int main(){
     Node* head = new Node(10);
+    
     insertnode(head,23);
     insertnode(head,89);
     insertnode(head,90);
