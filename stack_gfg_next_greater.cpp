@@ -4,17 +4,27 @@ void fun(int arr[],int n){
         int j;
         for(j = i+1; j<n; j++){
             if(arr[j]>arr[i]){
-                std::cout<<arr[j]<<" ";
+                std::cout<<arr[i]<<" "<<arr[j]<<std::endl;
                 break;
             }
         }
         if(j==n){
-            std::cout<<-1<<" ";
+            for(int i = 0; i<n; i++){
+            std::cout<<arr[i]<<" "<<-1<<std::endl;
+            
+
         }
+        break;
+      }
     }
 }
 int main(){
-    int arr[] = {5,15,10,8,6,12,9,18};
-    int size= 7;
+    int size;
+    std::cin>>size;
+
+    int arr[size];
+    for(int i = 0; i<size; i++){
+        std::cin>>arr[i];
+    }
     fun(arr,size);
 }

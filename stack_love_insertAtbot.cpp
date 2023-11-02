@@ -23,8 +23,8 @@ int main(){
         cout<<"stack is empty"<<endl;
         return 0;
     }
-    int target = s.top();
-    s.pop();
+    int target = 20;
+    
     insertAtBotom(s,target);
 
     while(!s.empty()){

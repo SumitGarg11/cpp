@@ -15,7 +15,7 @@ class Node{
         this->next=NULL;
     }
 };
-void insertAtHead(Node* head,Node* tail,int data){
+void insertAtHead(Node* &head,Node* &tail,int data){
     if(head == NULL){
         Node* newnode = new Node(data);
         head = newnode;
@@ -92,7 +92,7 @@ int main(){
     for(int i = 0; i<n; i++){
         int data;
         std::cin>>data;
-        insertAtTail(head,tail,data);
+        insertAtHead(head,tail,data);
     }
     std::cout<<"linked list: ";
     print(head);
