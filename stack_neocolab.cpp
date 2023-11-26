@@ -17,8 +17,9 @@ void pop(){
         cout<<"underflow"<<endl;
         return;
     }
-    top--;
+    
     cout<<"element"<<arr[top]<<" pop on the stack"<<endl;
+    top--;
 }
 void display(){
     if(top == -1){
